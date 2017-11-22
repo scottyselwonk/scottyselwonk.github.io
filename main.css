@@ -1,0 +1,291 @@
+/*@import url("font-awesome.min.css");*/
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
+body {
+	width: 100%;
+	background-image: url("blurred.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.content {
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 60%;
+	background-color: #F7F9FA;
+	border-radius: 1%;
+}
+
+.picLink {
+	display: flex;
+	margin: auto;
+	width: 15%;
+	height: auto;
+}
+
+.introTest {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #807E7E;
+	text-align: center;
+	flex: 1;
+}
+
+.links {
+	width: 50px;
+	height: auto;
+}
+
+
+.intro {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #807E7E;
+	text-align: center;
+}
+
+.icons {
+	list-style-type: none;
+    margin: 0;
+    margin-top: -2%;
+    padding: 0 39%;
+}
+
+.me {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.terp {
+	width: 20px;
+	height: auto;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+
+.links li {
+	margin-bottom: 10px;
+}
+
+.links li a {
+    font-size: 20pt;
+}
+
+.links li a:hover {
+	color: red;
+}
+
+li a {
+    color: #807E7E;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+li a:hover {
+	color: red;
+}
+
+.eduIcon {
+	list-style-type: none;
+}
+
+.about {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 400;
+	color: #807E7E;
+}
+
+.aboutSplit {
+	display: flex;
+}
+.aboutDesc {
+	flex: 1;
+	padding-left: 10%;
+}
+
+.aboutInt {
+	width: 50%;
+}
+.listText {
+	font-size: 22px;
+	font-weight: bolder;
+	color: #5C5959;
+
+}
+.interestList {
+	padding-left: 40%;
+	list-style-type: none;
+	font-size:  11pt;
+}
+
+.about p {
+	margin-left: 40px;
+}
+
+.work {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 400;
+	color: #807E7E;
+}
+
+.tenable {
+	width: 35px;
+	height: auto;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.workList {
+	list-style-type: none;
+}
+
+.topHr {
+	width: 40%;
+}
+
+hr {
+	width: 90%;
+	border-color: #D9D9D9;
+	color: #D9D9D9;
+	border-left: #D9D9D9;
+	border-top: 1px solid #D9D9D9;
+	background-color: #D9D9D9;
+}
+
+.tenableTop a {
+	font-size: 19pt;
+	color: #5C5959;
+}
+
+.tenableTop a:hover {
+	color: #4EBBD4;
+}
+
+.tenableTop {
+	font-size: 13pt;
+}
+
+.jobDate {
+	font-size: 11pt;
+	font-style: italic;
+	color: #7A141E;
+}
+
+.jobDesc {
+	list-style-type: none;
+	font-size: 11pt;
+}
+
+.jobDesc li {
+	padding-top: 10px;
+}
+
+h2 {
+	text-align: center;
+	color: #5C5959;
+}
+
+h1 {
+	color: #5C5959;
+}
+
+.projects {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 400;
+	color: #807E7E;
+}
+
+.projList {
+	list-style-type: none;
+}
+
+.project {
+	display: flex;
+}
+
+.projInfo {
+	flex: 1;
+}
+
+.projTitleLine {
+	display: flex
+}
+
+.projTitle {
+	flex: 1;
+	font-size: 18px;
+	color: #5C5959;
+}
+
+.projGit {
+	width: 5%
+	height: auto;
+}
+
+.projGit a {
+	font-size: 25pt;
+	color: #7A141E;
+}
+
+.projDesc {
+	list-style-type: none;
+	font-size:  11pt;
+}
+
+.projDesc li {
+	padding-top: 10px;
+}
+
+.projPic {
+	width: 40%;
+	height: auto;
+}
+
+.projPic img {
+	margin-right: 100px;
+	margin-left: 40px;
+	width: 300px;
+	height: auto;
+	border-radius: 0.25em;
+	-webkit-transition: all .4s ease; /* Safari and Chrome */
+    -moz-transition: all .4s ease; /* Firefox */
+    -ms-transition: all .4s ease; /* IE 9 */
+    -o-transition: all .4s ease; /* Opera */
+    transition: all .4s ease;
+}
+
+.projPic img:hover {
+	-webkit-transform:scale(1.7); /* Safari and Chrome */
+    -moz-transform:scale(1.7); /* Firefox */
+    -ms-transform:scale(1.7); /* IE 9 */
+    -o-transform:scale(1.7); /* Opera */
+     transform:scale(1.7);
+
+}
+
+.projType {
+	font-size: 10pt;
+	font-style: italic;
+	color: #7A141E;
+}
+
+.faIcon i {
+	color: #7A141E;
+}
+
+.faIconA a {
+	color: #7A141E;
+}
+
+.faIconA a:hover {
+	color: red;
+}
+
+.steam {
+	color: #1F1F1F;
+}
